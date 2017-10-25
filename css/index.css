@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* <!--                  头部               --> */
+header{	height: 115px;}
+#headertop{ height: 35px; background: #E7E7E7;}
+#headertop .img1{ height: 35px; margin-left: 5px;}
+#headerbottom{ height: 80px; background: white;}
+#headerbottom img{ height: 55px; width: 300px; margin: 10px auto;}
+/* 		<!--               导航                 --> */
+nav{ height: 40px;	background: #424242;}
+
+
+/* 		<!--               banner部分         --> */
+#banner{ height: 350px; background: yellow;}
+
+
+/* 		<!--                  热销商品           --> */
+
+
+
+
+/* 		<!--                  about us             --> */
+
+
+
+/* 		<!--                备案、地址             --> */
