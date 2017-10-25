@@ -12,9 +12,15 @@
 		<header>
 			<div id="headertop-wrap">
 				<div id="headertop">
+					<!-- logo -->
 					<a href="http://10.35.165.129/flower/index.html">
-						<img src="img/logo.png" alt="">
+						<img  class="logoimg" src="img/logo.png" alt="">
 					</a>
+					<!-- 商品列表logo -->
+					<a href="http://10.35.165.129/flower/index.html">
+						<img  class="goodslistimg" src="img/goodslist.jpg" alt="">
+					</a>
+
 				</div>
 			</div>
 			<div id="headerbottom">
@@ -97,8 +103,8 @@
  	 })
 window.onload = function(){
 	// 底部微信图标滑过的时候显示二维码
-	$("#showVX").onmouseover= function(){
-		$("#vxpic").style.display = "block"
+	$("#showVX").onclick= function(){
+		$("#vxpic").style.display = "block";
 	};
 }
 </script>
