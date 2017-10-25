@@ -1,0 +1,62 @@
+@charset "utf-8";
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend,figure,figcaption{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:16px; font-family:"微软雅黑";}
+input,a{outline:none;}
+@font-face {
+	font-family: 'font';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.floatl{ float: left;}
+.floatr{ float: right;}
+
+
+#headertop,#headerbottom,nav,#banner,#main,footer,#address{ width: 1264px; margin: 0 auto;}
+/* <!--                  头部               --> */
+header{	height: 115px;}
+#headertop{ height: 35px; background: #E7E7E7;}
+#headertop img{ height: 35px; margin-left: 5px;}
+#headerbottom{ height: 80px; background: white;}
+#headerbottom img{ height: 55px; width: 300px; margin: 10px auto;}
+
+
+
+/* 		<!--               导航                 --> */
+#nav-wrap{ background:#424242; }
+nav{ height: 40px;	background: #424242;}
+
+
+/* 		<!--               banner部分         --> */
+#banner{ height: 450px; background: yellow;}
+.swiper-container {	width: 100%;height: 450px;	}
+.swiper-slide,.swiper-slide img{width: 100%;height: 100%;}
+
+
+
+
+/* 		<!--                  热销商品           --> */
+#main{min-height: 300px; background: pink;}
+
+
+
+/* 		<!--                  about us             --> */
+footer{ height: 285px;  border-top: 1px solid #DEDEDE; position: relative;}
+#footer-box{ height: 213px; margin-top: 74px; }
+#footer-logo{ width: 162px; height: 100px; }
+#footer-logo p{ margin-left: 5px; width: 80px; margin-top: 30px; float: left;}
+#footer-logo .img2,#footer-logo .img3{ float: left; margin-top: 30px; margin-left: 5px;}
+#vxpic{ position: absolute; left: 350px; top: -150px; display: none;}
+/* 		<!--                备案、地址             --> */
+
+#address-wrap{ background: #424242;}
+
+#address{ height: 45px; background: #424242; color: white; text-align: center; line-height: 45px; font-size: 14px;}
