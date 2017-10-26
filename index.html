@@ -12,9 +12,19 @@
 		<header>
 			<div id="headertop-wrap">
 				<div id="headertop">
+					<!-- logo -->
 					<a href="http://10.35.165.129/flower/index.html">
-						<img src="img/logo.png" alt="">
+						<img  class="logoimg" src="img/logo.png" alt="">
 					</a>
+					<!-- 商品列表logo -->
+					<a href="http://10.35.165.129/flower/index.html">
+						<img  class="goodslistimg"  src="img/goodslist.jpg" alt="">
+					</a>
+					<div id="header-right">
+						<a href="">登录</a>丨
+						<a href="">注册</a>丨
+						(<span id="goodsNum">0</span>)
+					</div>
 				</div>
 			</div>
 			<div id="headerbottom">
@@ -48,7 +58,7 @@
 
 		<!--                  热销商品           -->
 		<div id="main">
-		asdsadas
+
 		</div>
 
 
@@ -63,9 +73,38 @@
 					</a>
 					<p>关注我们</p>
 					<img class="img3" id="showVX" src="img/14678074190065428.png" alt="">
-					<a href="http://weibo.com/roseonlyshop?sudaref=www.roseonly.com.cn&retcode=6102&is_hot=1"><img class="img2" src="img/14652897713466258.png" alt=""></a>
+					<a href="http://weibo.com/roseonlyshop?sudaref=www.roseonly.com.cn&retcode=6102&is_hot=1">
+							<img class="img2" src="img/14652897713466258.png" alt="">
+					</a>
 				</div>
+				<ul id="footer-ul1">
+					<li><p>新手指南</p></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">购物流程</a></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">支付方式</a></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">常见问题</a></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">指圈测量</a></li>
+				</ul>
+				<ul id="footer-ul1">
+					<li><p>售后服务</p></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">退款说明</a></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">保养物语</a></li>
+				</ul>
+				<ul id="footer-ul1">
+					<li><p>物流配送</p></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">配送方式</a></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">配送服务</a></li>
+				</ul>
+				<ul id="footer-ul1">
+					<li><p>关于我们</p></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">品牌介绍</a></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">销售渠道</a></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">联系我们</a></li>
+					<li><a href="http://www.roseonly.com.cn/about/pinpaijieshao.html">加入我们</a></li>
+				</ul>
+				<!-- 微信大图 -->
 				<img id="vxpic" src="img/QR-big.jpg" alt="">
+				<!-- 微信微博二维码 -->
+				<img id="vxblog" src="img/vx&blog.png" alt="">
 			</div>
 		</footer>
 
@@ -97,8 +136,11 @@
  	 })
 window.onload = function(){
 	// 底部微信图标滑过的时候显示二维码
-	$("#showVX").onmouseover= function(){
-		$("#vxpic").style.display = "block"
+	$("#showVX")[0].onmouseover= function(){
+		$("#vxpic")[0].style.display = "block";
+	};
+	$("#showVX")[0].onmouseout= function(){
+		$("#vxpic")[0].style.display = "none";
 	};
 }
 </script>
