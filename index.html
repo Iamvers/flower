@@ -23,7 +23,7 @@
 					<div id="header-right">
 						<a href="">登录</a>丨
 						<a href="">注册</a>丨
-						(<span id="goodsNum">0</span>)
+						<a href=""><i class="iconfont">&#xe698;</i>&nbsp;(<span id="goodsNum">0</span>)</a>
 					</div>
 				</div>
 			</div>
@@ -36,7 +36,20 @@
 
 
 		<!--               导航                 -->
-		<div id="nav-wrap"><nav></nav></div>
+		<div id="nav-wrap">
+			<nav>
+				<ul id="div2">
+					<li><a href="">爱礼推荐</a></li>
+					<li><a href="">鲜花玫瑰</a></li>
+					<li><a href="">永生玫瑰</a></li>
+					<li><a href="">玫瑰珠宝</a></li>
+					<li><a href="">玫瑰饰品</a></li>
+					<li><a href="">高端定制</a></li>
+					<li><a href="">专卖店</a></li>
+					<li><a href="">诺誓世界</a></li>
+				</ul>
+			</nav>
+		</div>
 
 		<!--               banner部分         -->
 		<div id="banner">
@@ -142,5 +155,17 @@ window.onload = function(){
 	$("#showVX")[0].onmouseout= function(){
 		$("#vxpic")[0].style.display = "none";
 	};
+	window.onscroll = function(){
+		var div2 = document.getElementById("div2");
+		var _scroll = document.body.scrollTop || document.documentElement.scrollTop;
+		if(_scroll >= 120){
+			div2.style.position = "fixed";
+			div2.style.top = 0;
+		} else {
+			div2.style.position = "absolute";
+			div2.style.top = "400px";
+		}
+	}
 }
+
 </script>
