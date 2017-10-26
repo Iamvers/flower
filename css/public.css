@@ -8,20 +8,13 @@ h1,h2,h3,h4,h5,h6{font-weight:100;}
 body{font-size:16px; font-family:"微软雅黑";}
 input,a{outline:none;}
 @font-face {
-  font-family: 'iconfont';  /* project id 398637 */
-  src: url('https://at.alicdn.com/t/font_398637_8b7qeu84aj935wmi.eot');
-  src: url('https://at.alicdn.com/t/font_398637_8b7qeu84aj935wmi.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_398637_8b7qeu84aj935wmi.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_398637_8b7qeu84aj935wmi.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_398637_8b7qeu84aj935wmi.svg#iconfont') format('svg');
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
 }
-.iconfont{
-  font-family:"iconfont" !important;
-  font-size:16px;
-  font-style:normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: 0.2px;
-  -moz-osx-font-smoothing: grayscale;}
 
 
 .floatl{ float: left;}
@@ -33,12 +26,14 @@ input,a{outline:none;}
 #headertop,#headerbottom,nav,#banner,#main,footer,#address{ width: 1264px; margin: 0 auto;}
 /* <!--                  头部               --> */
 header{	height: 115px;}
+#headertop-wrap{background-color:#E7E7E7; }
 #headertop{ height: 35px; background: #E7E7E7;}
 #headertop img{ height: 35px; margin-left: 5px;}
 .logoimg{ width: 188px;  float: left;}
 .goodslistimg{ width: 76px; float: left;}
 .goodslistimg:hover{background-color: black;}
-#header-right{ width: 140px; height: 100%; font-size: 14px; line-height: 35px; margin-right: 10px;  float: right;}
+#header-right{  width: 140px; height: 100%; font-size: 14px; line-height: 35px; margin-right: 10px;  float: right;}
+#header-right b{font-family: iconfont;}
 #header-right a:hover{ color: red;}
 .iconfont:hover{ font-size: 22px;}
 
@@ -50,7 +45,32 @@ header{	height: 115px;}
 /* 		<!--               导航                 --> */
 #nav-wrap{ background:#424242; }
 nav{ height: 40px;	background: #424242;}
-
+nav ul {
+  float: left;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: #424242; }
+  nav ul li {
+    margin-left: 8px;
+    float: left;
+    flex: 1; }
+    nav ul li a {
+      float: left;
+      display: block;
+      width: 70px;
+      font-size: 14px;
+      color: white;
+      padding: 0 20px;
+      line-height: 40px;
+      text-align: center; }
+    nav ul li a:hover {
+      background-color: white;
+      color: #424242; }
+  nav ul li:nth-child(1) a {
+    background-color: #C61829; }
+  nav ul li:nth-child(1) a:hover {
+    background-color: white; }
 
 /* 		<!--               banner部分         --> */
 #banner{ height: 450px; background: yellow;}
@@ -61,13 +81,18 @@ nav{ height: 40px;	background: #424242;}
 
 
 /* 		<!--                  热销商品           --> */
-#main{min-height: 300px; background: pink;}
+#main{min-height: 300px; overflow: hidden;}
 
 
 
 /* 		<!--                  about us             --> */
-footer{ height: 285px;  border-top: 1px solid #DEDEDE; position: relative;}
-#footer-box{ height: 213px; margin-top: 65px; }
+footer{ height: 285px; position: relative; }
+#footer-box{  border-top: 1px solid #DEDEDE; height: 213px; padding-top: 40px; position: absolute; top: 50px; box-sizing: border-box;left: 20px;margin-top: 30px;}
+#tips { font-family: iconfont; width: 200px;  height: 50px;  float: left;  margin-left: 90px;  margin-top: 10px; }
+#tips p { float: left; margin-left: 12px; }
+#tips p:nth-child(1) {    font-size: 48px; }
+#tips p:nth-child(2) {    font-size: 26px; }
+#tips p:nth-child(3) {    line-height: 26px; }
 #footer-logo{ width: 162px; height: 100px; margin-right: 30px; }
 #footer-logo p{ margin-left: 5px; width: 80px; margin-top: 30px; float: left;}
 #footer-logo .img2,#footer-logo .img3{ float: left; margin-top: 30px; margin-left: 5px;}
