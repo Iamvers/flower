@@ -1,7 +1,10 @@
-/* nav  */
-
 
 /* main */
+
+
+/* 选项卡 */
+
+/* 热门活动 */
 #activ {
   width: 100%;
   height: 330px;
@@ -86,7 +89,7 @@ figure {
   width: 100%;
   float: left;
   border-top: 3px double #E7E7E7; }
-  #advertise img {
+#advertise img {
     float: left;
     margin: 20px 12px; }
 
