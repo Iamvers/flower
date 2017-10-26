@@ -1,0 +1,29 @@
+/* nav  */
+nav ul {
+  float: left;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: #424242; }
+  nav ul li {
+    margin-left: 8px;
+    float: left;
+    flex: 1; }
+    nav ul li a {
+      float: left;
+      display: block;
+      width: 70px;
+      font-size: 14px;
+      color: white;
+      padding: 0 20px;
+      line-height: 40px;
+      text-align: center; }
+    nav ul li a:hover {
+      background-color: white;
+      color: #424242; }
+  nav ul li:nth-child(1) a {
+    background-color: #C61829; }
+  nav ul li:nth-child(1) a:hover {
+    background-color: white; }
+
+/*# sourceMappingURL=index.css.map */
