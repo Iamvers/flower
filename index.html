@@ -23,7 +23,7 @@
 					<div id="header-right">
 						<a href="">登录</a>丨
 						<a href="">注册</a>丨
-						<a href=""><i class="iconfont">&#xe698;</i>&nbsp;(<span id="goodsNum">0</span>)</a>
+						<a href=""><b>&#xe698;</b> (<span id="goodsNum">0</span>)</a>
 					</div>
 				</div>
 			</div>
@@ -71,7 +71,30 @@
 
 		<!--                  热销商品           -->
 		<div id="main">
+			<div id="activ">
+					<figure>
+						<a href=""><img src="img/activ-1.jpg" alt=""></a>
+						<p>新品上市</p>
+					</figure>
+					<figure>
+						<a href=""><img src="img/activ-2.jpg" alt=""></a>
+						<p>经典热卖</p>
+					</figure>
+					<figure>
+						<a href=""><img src="img/activ-3.jpg" alt=""></a>
+						<p>当月星座</p>
+					</figure>
+					<figure>
+						<a href=""><img src="img/activ-4.jpg" alt=""></a>
+						<p>明星同款</p>
+					</figure>
+			</div>
+			<div id="hotsale">
+				热卖单品推荐
+			</div>
+			<div id="tabplay">
 
+			</div>
 		</div>
 
 
@@ -134,19 +157,19 @@
 <script src="js/swiper-3.4.2.min.js"></script>
 <script src="js/jquery-1.8.3.min.js"></script>
 <script>
-	 var mySwiper = new Swiper ('.swiper-container', {
-								    autoplay: 3000,
-								    speed:1000,
-								    loop:true,
-								    preventClicks:false,
-								    autoplayDisableOnInteraction :false,
-								    effect : 'cude',
-									paginationClickable: true,
-								    // 如果需要分页器
-								    pagination: '.swiper-pagination',
-
-
- 	 })
+var mySwiper = new Swiper (
+						'.swiper-container', {
+						    autoplay: 3000,
+						    speed:1000,
+						    loop:true,
+						    preventClicks:false,
+						    autoplayDisableOnInteraction :false,
+						    effect : 'cude',
+							paginationClickable: true,
+						    // 如果需要分页器
+						    pagination: '.swiper-pagination',
+							}
+					)
 window.onload = function(){
 	// 底部微信图标滑过的时候显示二维码
 	$("#showVX")[0].onmouseover= function(){
@@ -155,17 +178,7 @@ window.onload = function(){
 	$("#showVX")[0].onmouseout= function(){
 		$("#vxpic")[0].style.display = "none";
 	};
-	window.onscroll = function(){
-		var div2 = document.getElementById("div2");
-		var _scroll = document.body.scrollTop || document.documentElement.scrollTop;
-		if(_scroll >= 120){
-			div2.style.position = "fixed";
-			div2.style.top = 0;
-		} else {
-			div2.style.position = "absolute";
-			div2.style.top = "400px";
-		}
-	}
+
 }
 
 </script>
