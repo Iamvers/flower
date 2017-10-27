@@ -45,32 +45,14 @@ header{	height: 115px;}
 /* 		<!--               导航                 --> */
 #nav-wrap{ background:#424242; }
 nav{ height: 40px;	background: #424242;}
-nav ul {
-  float: left;
-  width: 100%;
-  display: flex;
-  position: relative;
-  background-color: #424242; }
-  nav ul li {
-    margin-left: 8px;
-    float: left;
-    flex: 1; }
-    nav ul li a {
-      float: left;
-      display: block;
-      width: 70px;
-      font-size: 14px;
-      color: white;
-      padding: 0 20px;
-      line-height: 40px;
-      text-align: center; }
-    nav ul li a:hover {
-      background-color: white;
-      color: #424242; }
-  nav ul li:nth-child(1) a {
-    background-color: #C61829; }
-  nav ul li:nth-child(1) a:hover {
-    background-color: white; }
+nav ul { float: left;  width: 100%;  display: flex;  position: relative; line-height: 40px; background-color: #424242; }
+nav ul li { margin-left: 8px;  float: left;  flex: 1; }
+nav ul li a { float: left; display: block; width: 70px; font-size: 14px; color: white; padding: 0 20px; line-height: 40px;text-align: center; }
+nav ul li a:hover {background-color: white; color: #424242; }
+nav ul li:nth-child(1) a {background-color: #C61829; }
+nav ul li:nth-child(1) a:hover { background-color: white; }
+
+
 
 /* 		<!--               banner部分         --> */
 #banner{ height: 450px; background: yellow;}
@@ -104,8 +86,31 @@ footer{ height: 285px; position: relative; }
 #footer-ul1 a{ line-height: 26px; font-size: 15px;}
 
 #vxblog{ display: block; width: 263px; margin-left: 20px; position: relative; left: 20px;}
+
+
+
+
+
 /* 		<!--                备案、地址             --> */
 
 #address-wrap{ background: #424242;}
 
 #address{ height: 45px; background: #424242; color: white; text-align: center; line-height: 45px; font-size: 14px;}
+
+
+/*              fixed                    */
+#fixed{ font-family: iconfont; width: 300px; height: 200px; position: fixed; right: 10px; bottom: 45px; z-index: 3;}
+#erweima{ position: relative;}
+#erweima p{ font-size: 48px; text-indent: 4px; width: 50px; height: 50px; color: white; background-color: #949494; position: absolute; right: 0px; top: 30px; border-radius: 15%;}
+#erweima p:hover{background-color: #424242;cursor: pointer;}
+#erweima img{ width: 220px; height:130px; position: absolute; right: 50px; display: none; }
+
+#contact>p{ background-color: #949494; width: 50px; height: 50px; font-size: 46px; text-indent: 2px; color: white;position: absolute; right: 0px; top: 90px; border-radius: 15%;}
+#contact>p:hover{background-color: #424242; cursor: pointer;}
+.phone{ background-color: white; border: 1px solid #949494; position: absolute; z-index: 3; border-radius: 15%; right: 60px; top: 60px; display: none;}
+.phone p{ text-align: center; line-height: 30px;}
+.phone input{ background-color:#949494; color: white; margin-left: 14px; margin-bottom: 4px; }
+
+#totop{ position: absolute; bottom: 2px; right: 0;background-color: #949494; width: 50px; height: 50px; font-size: 48px; text-indent: 4px;  border-radius: 15%; display: none; cursor: pointer;}
+#totop p{color: white;}
+#totop p:hover{background-color: #424242;}
