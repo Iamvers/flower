@@ -1,10 +1,4 @@
-
 /* main */
-
-
-/* 选项卡 */
-
-/* 热门活动 */
 #activ {
   width: 100%;
   height: 330px;
@@ -56,7 +50,68 @@ figure {
   height: 710px;
   border: 1px solid #EFEFEF;
   margin: 0 auto;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  position: relative; }
+  #tabplay ul {
+    display: flex;
+    color: #CECECE; }
+    #tabplay ul li {
+      flex: 1;
+      text-align: center;
+      height: 50px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #000; }
+      #tabplay ul li a {
+        display: block;
+        width: 100%;
+        margin-top: 16px;
+        height: 18px;
+        font-size: 16px;
+        line-height: 14px;
+        border-right: 1px solid #212921; }
+    #tabplay ul li:nth-child(4) a {
+      border: 0; }
+    #tabplay ul li:hover {
+      border: 2px solid #000;
+      border-top: 4px solid #000;
+      border-bottom: 0;
+      font-weight: 900; }
+
+#tabcontent {
+  width: 100%;
+  height: 660px;
+  position: absolute;
+  display: none;
+  top: 50px; }
+  #tabcontent a:hover dl {
+    background-color: #E7E7E7; }
+  #tabcontent dl {
+    display: block;
+    width: 246.5px;
+    height: 330px;
+    float: left;
+    border-right: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+    position: relative;
+    transition: all 0.5s; }
+    #tabcontent dl img {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      left: 23px;
+      top: 10px; }
+    #tabcontent dl dd {
+      width: 100%;
+      position: absolute;
+      bottom: 20px; }
+      #tabcontent dl dd h3, #tabcontent dl dd p, #tabcontent dl dd b {
+        line-height: 28px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 15px; }
+      #tabcontent dl dd h3 {
+        font-weight: 900; }
 
 #rosetitle {
   width: 100%;
@@ -89,10 +144,28 @@ figure {
   width: 100%;
   float: left;
   border-top: 3px double #E7E7E7; }
-#advertise img {
+  #advertise img {
     float: left;
-    margin: 20px 12px; }
+    margin: 20px 12px;
+    transition: all 0.8s; }
+  #advertise img:hover {
+    opacity: .6; }
 
-
+#tips {
+  font-family: iconfont;
+  width: 200px;
+  height: 50px;
+  float: left;
+  margin-left: 90px;
+  margin-top: 10px; }
+  #tips p {
+    float: left;
+    margin-left: 12px; }
+  #tips p:nth-child(1) {
+    font-size: 48px; }
+  #tips p:nth-child(2) {
+    font-size: 26px; }
+  #tips p:nth-child(3) {
+    line-height: 26px; }
 
 /*# sourceMappingURL=index.css.map */
