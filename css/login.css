@@ -1,0 +1,22 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-28 16:01:54
+* @Last Modified by:   vers
+* @Last Modified time: 2017-10-28 21:25:15
+*/
+#main {
+  height: 650px;
+  background: yellow;
+  position: relative; }
+  #main form {
+    width: 356px;
+    height: 340px;
+    right: 80px;
+    top: 30px;
+    position: absolute;
+    background-color: #F7FFF7;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+/*# sourceMappingURL=login.css.map */
