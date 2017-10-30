@@ -1,0 +1,367 @@
+/*
+* @Author: vers
+* @Date:   2017-10-28 16:02:13
+* @Last Modified by:   vers
+* @Last Modified time: 2017-10-30 21:59:34
+*/
+#main {
+  background-image: url(../img/activebg.jpg);
+  background-size: 100%; }
+  #main .activeimg {
+    width: 100%; }
+  #main .clearb {
+    margin: 0 auto; }
+  #main .activebg {
+    width: 100%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 70px; }
+    #main .activebg div {
+      width: 210px;
+      height: 28px;
+      position: absolute; }
+      #main .activebg div span {
+        width: 16px;
+        height: 16px;
+        display: block;
+        margin-top: 6px;
+        background-color: yellow;
+        border-radius: 50%;
+        line-height: 28px; }
+    #main .activebg .sign1 {
+      left: 330px;
+      top: 60px; }
+      #main .activebg .sign1 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (8).png");
+        background-position: right;
+        float: left;
+        margin-left: 20px;
+        transition: .6s; }
+      #main .activebg .sign1 p:hover {
+        background-position: left; }
+      #main .activebg .sign1 span {
+        float: right;
+        background-color: #10297B; }
+    #main .activebg .sign2 {
+      left: 220px;
+      top: 170px; }
+      #main .activebg .sign2 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (9).png");
+        background-position: right;
+        float: left;
+        margin-left: 20px;
+        transition: .6s; }
+      #main .activebg .sign2 p:hover {
+        background-position: left; }
+      #main .activebg .sign2 span {
+        float: right;
+        background-color: #941818; }
+    #main .activebg .sign3 {
+      left: 130px;
+      top: 270px; }
+      #main .activebg .sign3 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (12).png");
+        background-position: right;
+        float: left;
+        margin-left: 20px;
+        transition: .6s; }
+      #main .activebg .sign3 p:hover {
+        background-position: left; }
+      #main .activebg .sign3 span {
+        float: right;
+        background-color: #4A08A5; }
+    #main .activebg .sign4 {
+      left: 150px;
+      top: 370px; }
+      #main .activebg .sign4 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (1).png");
+        background-position: right;
+        float: left;
+        margin-left: 20px;
+        transition: .6s; }
+      #main .activebg .sign4 p:hover {
+        background-position: left; }
+      #main .activebg .sign4 span {
+        float: right;
+        background-color: #D6D6CE; }
+    #main .activebg .sign5 {
+      left: 330px;
+      top: 425px; }
+      #main .activebg .sign5 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (2).png");
+        background-position: right;
+        float: left;
+        margin-left: 20px;
+        transition: .6s; }
+      #main .activebg .sign5 p:hover {
+        background-position: left; }
+      #main .activebg .sign5 span {
+        float: right;
+        background-color: #ADCEEF; }
+    #main .activebg .sign6 {
+      left: 310px;
+      top: 540px; }
+      #main .activebg .sign6 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (10).png");
+        background-position: right;
+        float: left;
+        margin-left: 20px;
+        transition: .6s; }
+      #main .activebg .sign6 p:hover {
+        background-position: left; }
+      #main .activebg .sign6 span {
+        float: right;
+        background-color: #39084A; }
+    #main .activebg .sign7 {
+      left: 750px;
+      top: 100px; }
+      #main .activebg .sign7 p {
+        width: 166px;
+        height: 25px;
+        background-image: url("../img/sign (11).png");
+        background-position: left;
+        float: right;
+        margin-right: 20px;
+        transition: .6s; }
+      #main .activebg .sign7 p:hover {
+        background-position: right; }
+      #main .activebg .sign7 span {
+        background-color: #9CCEB5; }
+    #main .activebg .sign8 {
+      left: 720px;
+      top: 210px; }
+      #main .activebg .sign8 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (4).png");
+        background-position: left;
+        float: right;
+        margin-right: 20px;
+        transition: .6s; }
+      #main .activebg .sign8 p:hover {
+        background-position: right; }
+      #main .activebg .sign8 span {
+        background-color: #DE7394; }
+    #main .activebg .sign9 {
+      left: 830px;
+      top: 250px; }
+      #main .activebg .sign9 p {
+        width: 166px;
+        height: 25px;
+        background-image: url("../img/sign (5).png");
+        background-position: left;
+        float: right;
+        margin-right: 20px;
+        transition: .6s; }
+      #main .activebg .sign9 p:hover {
+        background-position: right; }
+      #main .activebg .sign9 span {
+        background-color: #6B1818; }
+    #main .activebg .sign10 {
+      left: 700px;
+      top: 340px; }
+      #main .activebg .sign10 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (6).png");
+        background-position: left;
+        float: right;
+        margin-right: 20px;
+        transition: .6s; }
+      #main .activebg .sign10 p:hover {
+        background-position: right; }
+      #main .activebg .sign10 span {
+        background-color: #EFAD00; }
+    #main .activebg .sign11 {
+      left: 810px;
+      top: 380px; }
+      #main .activebg .sign11 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (7).png");
+        background-position: left;
+        float: right;
+        margin-right: 20px;
+        transition: .6s; }
+      #main .activebg .sign11 p:hover {
+        background-position: right; }
+      #main .activebg .sign11 span {
+        background-color: #FF5221; }
+    #main .activebg .sign12 {
+      left: 700px;
+      top: 500px; }
+      #main .activebg .sign12 p {
+        width: 157px;
+        height: 25px;
+        background-image: url("../img/sign (3).png");
+        background-position: left;
+        float: right;
+        margin-right: 20px;
+        transition: .6s; }
+      #main .activebg .sign12 p:hover {
+        background-position: right; }
+      #main .activebg .sign12 span {
+        background-color: #E7D6B5; }
+
+#musicrose {
+  width: 532px;
+  height: 389px;
+  position: relative;
+  float: left; }
+  #musicrose .musicrose {
+    width: 320px;
+    height: 224px;
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    text-align: center; }
+    #musicrose .musicrose span:nth-child(1) {
+      margin-left: 10px;
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: 300;
+      display: block;
+      width: 280px;
+      line-height: 34px; }
+    #musicrose .musicrose span:nth-child(2) {
+      display: block;
+      margin-top: 24px;
+      text-align: center; }
+    #musicrose .musicrose ul {
+      margin: 20px auto;
+      display: flex; }
+      #musicrose .musicrose ul li {
+        float: left;
+        flex: 1; }
+        #musicrose .musicrose ul li a {
+          text-decoration: underline; }
+
+#liverose {
+  width: 457px;
+  height: 389px;
+  position: relative;
+  float: left;
+  margin-left: 23px; }
+  #liverose .musicrose {
+    width: 320px;
+    height: 224px;
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    text-align: center; }
+    #liverose .musicrose span:nth-child(1) {
+      margin-left: 10px;
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: 300;
+      display: block;
+      width: 280px;
+      line-height: 34px; }
+    #liverose .musicrose span:nth-child(2) {
+      display: block;
+      margin-top: 24px;
+      text-align: center; }
+    #liverose .musicrose ul {
+      margin: 20px auto;
+      display: flex; }
+      #liverose .musicrose ul li {
+        float: left;
+        flex: 1; }
+        #liverose .musicrose ul li a {
+          text-decoration: underline; }
+
+#liverose2 {
+  width: 532px;
+  height: 389px;
+  position: relative;
+  float: left; }
+  #liverose2 .musicrose {
+    width: 320px;
+    height: 224px;
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+    text-align: center; }
+    #liverose2 .musicrose span:nth-child(1) {
+      margin-left: 10px;
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: 300;
+      display: block;
+      width: 280px;
+      line-height: 34px; }
+    #liverose2 .musicrose span:nth-child(2) {
+      display: block;
+      margin-top: 24px;
+      text-align: center; }
+    #liverose2 .musicrose ul {
+      margin: 20px auto;
+      display: flex; }
+      #liverose2 .musicrose ul li {
+        float: left;
+        flex: 1; }
+        #liverose2 .musicrose ul li a {
+          text-decoration: underline; }
+
+#jewel1 {
+  width: 100%;
+  height: 600px;
+  clear: both;
+  margin: 0 auto; }
+  #jewel1 #jewelsign {
+    height: 300px;
+    width: 785px;
+    float: left;
+    display: flex;
+    box-sizing: border-box;
+    padding-right: 100px; }
+    #jewel1 #jewelsign ul {
+      flex: 1; }
+      #jewel1 #jewelsign ul p {
+        text-align: center;
+        line-height: 40px; }
+      #jewel1 #jewelsign ul li {
+        text-align: center; }
+        #jewel1 #jewelsign ul li a {
+          padding: 0 5px;
+          text-decoration: underline;
+          line-height: 28px; }
+
+#jewel2 {
+  width: 100%;
+  height: 600px;
+  clear: both;
+  margin: 0 auto; }
+  #jewel2 .jewelsign {
+    height: 200px;
+    width: 785px;
+    float: left;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 100px; }
+    #jewel2 .jewelsign ul {
+      flex: 1; }
+      #jewel2 .jewelsign ul p {
+        text-align: center;
+        line-height: 40px; }
+      #jewel2 .jewelsign ul li {
+        text-align: center; }
+        #jewel2 .jewelsign ul li a {
+          padding: 0 5px;
+          text-decoration: underline;
+          line-height: 28px; }
+
+/*# sourceMappingURL=activity.css.map */
