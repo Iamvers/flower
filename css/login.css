@@ -2,12 +2,14 @@
 * @Author: Administrator
 * @Date:   2017-10-28 16:01:54
 * @Last Modified by:   vers
-* @Last Modified time: 2017-10-28 21:25:15
+* @Last Modified time: 2017-10-30 16:03:35
 */
 #main {
   height: 650px;
   background: yellow;
-  position: relative; }
+  position: relative;
+  background-image: url("../img/mainbg.jpg");
+  background-position: center; }
   #main form {
     width: 356px;
     height: 340px;
@@ -16,7 +18,77 @@
     position: absolute;
     background-color: #F7FFF7;
     box-sizing: border-box;
-    margin-top: 25px;
-}
+    padding-top: 28px; }
+    #main form div {
+      width: 290px;
+      height: 60px;
+      margin: 0 auto;
+      position: relative; }
+      #main form div select {
+        width: 290px;
+        height: 43px;
+        outline: none; }
+      #main form div input {
+        box-sizing: border-box;
+        width: 290px;
+        border: solid 1px #b3b3b3;
+        font-size: 14px;
+        text-indent: 50px;
+        padding: 13px 0 14px 10px;
+        position: relative; }
+      #main form div #password {
+        text-indent: 0; }
+  #main .add86 {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 49px;
+    height: 43px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 43px;
+    background-color: white;
+    border-right: 1px solid #B5B5B5; }
+  #main #forgetPW {
+    width: 290px;
+    height: 18px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 6; }
+    #main #forgetPW a:nth-child(1) {
+      float: left; }
+    #main #forgetPW a:nth-child(2) {
+      float: right; }
+  #main #loginbtn {
+    display: block;
+    width: 290px;
+    height: 40px;
+    margin-left: 34px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    position: relative;
+    z-index: 6;
+    background-color: #C6C6C6; }
+  #main #loginbtn:hover {
+    cursor: pointer; }
+  #main p {
+    font-family: iconfont;
+    width: 100%;
+    height: 46px;
+    background-color: #C6C6C6;
+    position: absolute;
+    border-bottom: 0;
+    margin-top: 18px;
+    text-align: center;
+    line-height: 46px; }
+    #main p span:nth-child(1) {
+      font-size: 24px; }
+    #main p span:nth-child(2) {
+      line-height: 1px; }
 
 /*# sourceMappingURL=login.css.map */
